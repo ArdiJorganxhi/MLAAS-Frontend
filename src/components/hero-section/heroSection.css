@@ -1,0 +1,9 @@
+.hero-section {
+    margin-top: 200px;
+}
+
+.hero-section h1 {
+    color: green;
+    font-size: 5.5rem;
+    font-weight: 450;
+}

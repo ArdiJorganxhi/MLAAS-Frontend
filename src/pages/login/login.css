@@ -1,0 +1,42 @@
+.login-card {
+    margin-top: 100px;
+    display: inline-block;
+    border: 2px solid green;
+    background-color: black; /* Background color for the card */ /* Border for the card */
+    border-radius: 30px; /* Border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional box shadow for a lifted effect */
+    padding: 70px; /* Padding to create space inside the card */
+    overflow: hidden;
+}
+
+.login-card h1 {
+    color: green;
+    background-color: #000;
+    letter-spacing: 15px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+    background-color: #000;
+   
+   
+}
+
+.login-form input {
+    background-color: #000;
+    width: 100%;
+    
+    
+}
+
+.login-form input::placeholder {
+    color: gray;
+}
+
+.login-button {
+    font-size: 2rem;
+}

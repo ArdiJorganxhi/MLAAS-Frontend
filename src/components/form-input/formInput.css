@@ -1,0 +1,19 @@
+.form-input {
+    border: none;
+	border-bottom: 1.5px solid green;
+	background: none;
+	padding: 10px;
+	padding-left: 1px;
+	font-weight: 700;
+	width: 30%;
+	transition: .2s;
+    color: #fff;
+}
+
+.form-input::placeholder {
+    color: gray;
+    font-weight: 100;
+    font-size: 1rem;
+    font-style: italic;
+    
+}
