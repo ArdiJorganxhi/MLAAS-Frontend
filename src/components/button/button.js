@@ -1,10 +1,10 @@
 import React from 'react';
-import './button.css'; // Import your CSS file for styling
+import './button.css';
 
-const Button = ({ text, onClick }) => {
+const Button = (props) => {
   return (
-    <button className="rounded-button" onClick={onClick}>
-      {text}
+    <button className="rounded-button" onClick={props.onClick} onSubmit={props.onSubmit}>
+      {props.text}
     </button>
   );
 };

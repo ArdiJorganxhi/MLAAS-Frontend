@@ -5,13 +5,13 @@ import Button from '../../components/button/button'
 import { LoginRequest } from '../../models/requests/LoginRequest'
 
 function Login() {
-  const {loginValues, handleChange} = LoginRequest();
+  const {loginValues, handleChange, handleSubmit} = LoginRequest();
   return (
     <div className='login-card'>
     <form className='login-form'>
       <FormInput type='text' placeholder="Enter your email"  name='email' value={loginValues.email} onChange={handleChange} />
       <FormInput type='password' placeholder="Enter your password" name='password' value={loginValues.password} onChange={handleChange} />
-      <Button text="Login" className='register-button' />
+      <Button text="Login" className='register-button' onSubmit={handleSubmit} />
     </form>
     </div>
   )

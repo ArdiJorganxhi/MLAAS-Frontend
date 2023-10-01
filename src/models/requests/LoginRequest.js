@@ -1,4 +1,6 @@
 import { useState } from "react"
+import { sendLoginRequest } from "../../services/AuthService";
+
 
 export const LoginRequest = () => {
     const [loginValues, setLoginValues] = useState({
@@ -14,5 +16,16 @@ export const LoginRequest = () => {
         });
       };
 
-      return {loginValues, handleChange }
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+        const response = await sendLoginRequest(loginValues);
+        console.log(response.data)
+        return response.data;
+        } catch (error) {
+          throw error
+        }
+      }
+
+      return {loginValues, handleChange, handleSubmit }
 }
