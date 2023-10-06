@@ -1,0 +1,23 @@
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+
+.aboutUsTitle {
+    text-align: center;
+    color: green;
+    font-size: 5.5rem;
+    font-weight: 200;
+}
+
+.divider {
+    width: 1px; /* Width of the divider line */
+    height: 36px; /* Adjust the height to match the icon size */
+    background-color: #333; /* Divider line color */
+    margin: 0 10px; /* Adjust the spacing between icons and divider */
+}
