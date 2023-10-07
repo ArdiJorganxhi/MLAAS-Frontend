@@ -1,0 +1,16 @@
+.authPageContainer {
+    padding: 120px;
+    text-align: center;
+}
+
+.authPageContainer h1 {
+    color: green;
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.authPageButtonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
