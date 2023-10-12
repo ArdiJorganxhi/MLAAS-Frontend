@@ -1,0 +1,4 @@
+.textPageContainer {
+    display: flex;
+    flex-direction: column;
+}

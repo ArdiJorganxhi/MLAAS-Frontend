@@ -6,6 +6,8 @@ import Home from './pages/home/home';
 import Register from './pages/register/register';
 import Login from './pages/login/login';
 import AuthPage from './pages/auth-page/authPage';
+import ModelPage from './pages/model-page/modelPage';
+import GenerateTextPage from './pages/home/generate-text-page/generateTextPage';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <Route path='/register' element={<Register />} />
     <Route path='/login' element={<Login />} />
     <Route path='/get-started' element={<AuthPage />} />
+    <Route path='/models' element={<ModelPage />} />
+    <Route path='/models/generate' element={<GenerateTextPage />} />
     </Routes>
     </BrowserRouter>
     </div>

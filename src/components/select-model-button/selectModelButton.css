@@ -1,0 +1,26 @@
+.selectModelButton {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    background: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    gap: 15px;
+    color: green;
+}
+
+.buttonContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttonIcon {
+    font-size: 100px;
+    width: 250px;
+}
+
+.buttonText {
+    font-size: 1.3rem;
+}

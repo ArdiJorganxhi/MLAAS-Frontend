@@ -1,0 +1,29 @@
+.modelSection {
+    padding-top: 20px;
+}
+
+
+.modelPageTitle {
+    color: green;
+    font-size: 5rem;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.modelPageText {
+    color: green;
+    font-size: 3.5rem;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.modelExamples {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: left;
+    align-items: start;
+    padding-left: 30px;
+}
